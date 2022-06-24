@@ -17,9 +17,11 @@ export default class Navbar extends React.Component {
     const temp = {
       title: searchText,
     };
+    // call api addNewAlbum post api
     this.props.dispatch(addNewAlbum(temp));
   };
   render() {
+    // on navBar we can add new album
     return (
       <div className="nav">
         <div className="nav-container">

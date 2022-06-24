@@ -16,6 +16,7 @@ const thunk =
     }
     next(action);
   };
+// creating store and middleware to use redux
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

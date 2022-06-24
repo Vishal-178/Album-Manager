@@ -4,6 +4,8 @@ import {
   deleteAlbumAction,
   updateAlbumAction,
 } from "../action";
+// use to addNew album which fetch data from the api and call action which save all
+// album in store and render
 export function addAlbum() {
   const url = "https://jsonplaceholder.typicode.com/albums";
   return function (dispatch) {
@@ -14,7 +16,7 @@ export function addAlbum() {
       });
   };
 }
-
+// use to send delete api then after receiving response it call delete album action which remove that album from the state
 export function deleteAlbum(album) {
   const url = `https://jsonplaceholder.typicode.com/albums/${album.id}`;
   return function (dispatch) {
@@ -30,7 +32,7 @@ export function deleteAlbum(album) {
       });
   };
 }
-
+// send put request to api after getting response it update title of album and call update action and update title of that album
 export function updateAlbum(album) {
   const url = `https://jsonplaceholder.typicode.com/albums/${album.id}`;
   return function (dispatch) {
@@ -55,6 +57,7 @@ export function updateAlbum(album) {
       });
   };
 }
+// post request to update new album
 export function addNewAlbum(album) {
   const url = "https://jsonplaceholder.typicode.com/albums";
   return function (dispatch) {

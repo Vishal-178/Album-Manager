@@ -15,7 +15,9 @@ export default class App extends Component {
     const { albums } = this.props.store.getState();
     return (
       <>
+        {/* rendering NavBar */}
         <Navbar dispatch={this.props.store.dispatch} />
+        {/* rendering AlbumCard for all album which come from the state  */}
         <div className="App">
           {albums.map((album) => (
             <AlbumCard
