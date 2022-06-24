@@ -1,4 +1,4 @@
-## Hosted Link -- 
+## Hosted Link -- https://album-manager-8461b.web.app
 
 ### Description
 
@@ -26,7 +26,7 @@ album-manager
    ├─ action
    │  └─ index.js
    ├─ api
-   │  └─ index.js
+   │  └─ index.jsg
    ├─ components
    │  ├─ AlbumCard.js
    │  ├─ App.js
