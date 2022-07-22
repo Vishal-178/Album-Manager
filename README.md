@@ -1,5 +1,9 @@
 ## Hosted Link -- https://album-manager-8461b.web.app
 
+# Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/7vuCmG_Tq00/0.jpg)](https://www.youtube.com/watch?v=7vuCmG_Tq00)
+
 ### Description
 
 `learn how to manage api in react redux`
